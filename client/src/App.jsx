@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Logo from "../images/logo.svg";
+import logo from "../images/logo.svg";
 
 function App() {
 	return (
