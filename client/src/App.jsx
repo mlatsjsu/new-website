@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import logo from "../images/logo.svg";
+import Logo from "../images/logo.svg";
 
 function App() {
 	return (
@@ -22,12 +22,9 @@ function App() {
 				</div>
 			</div>
 			<div id="front-message" className="absolute h-[100vh] top-0 left-0">
-				<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-					<div>
-						<p className="text-lg text-black">
-							Thanks for visiting!
-						</p>
-					</div>
+				<div className=" w-full h-full mx-auto p-2 flex justify-center items-center">
+					<Logo src="" alt="" width="125" height="30" />
+					{/* <p className="text-lg text-black"> */}
 				</div>
 			</div>
 			<div id="second" className="h-[100vh]"></div>
