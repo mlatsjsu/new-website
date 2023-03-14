@@ -21,10 +21,9 @@ function App() {
 					</ul>
 				</div>
 			</div>
-			<div id="front-message" className="absolute h-[100vh] top-0 left-0">
-				<div className=" w-full h-full mx-auto p-2 flex justify-center items-center">
-					<Logo src="" alt="" width="125" height="30" />
-					{/* <p className="text-lg text-black"> */}
+			<div id="front-message" className="w-full absolute h-[100vh] top-0 left-0">
+				<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+					<img className="h-[35%]" src={logo} alt="logo" />
 				</div>
 			</div>
 			<div id="second" className="h-[100vh]"></div>
