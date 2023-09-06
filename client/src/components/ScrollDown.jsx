@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import { motion } from 'framer-motion'
-import Introduction from './Introduction'
 import Scroll from '../../images/scroll-down.png'
 
 const ScrollDown = () => {
@@ -10,7 +9,7 @@ const ScrollDown = () => {
       to="introduction"
       smooth={true}
       duration={1000}
-      className='cursor-pointer hover:scale-110 active:scale-90 absolute bottom-12'>
+      className='cursor-pointer hover:scale-110 active:scale-90 absolute bottom-8'>
       <motion.img src={Scroll}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

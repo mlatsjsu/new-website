@@ -19,6 +19,7 @@ const ParticleBg = () => {
   return (
     <div>
       <Particles
+        id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
