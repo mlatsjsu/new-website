@@ -3,31 +3,29 @@ import Information from './Information';
 import ParticleBg from './ParticleBg';
 import ScrollDown from './ScrollDown';
 import Navbar from './Navbar';
-import GetInvolved from './GetInvolved';
 import homescreen from "../../images/homescreen.jpg";
-import JoinUs from './JoinUs';
+import LinkToButton from './LinkToButton';
 
 const HomeScreen = () => {
   return (
     <div className="h-screen">
       {/* <ParticleBg /> */}
-        <Navbar />
-        <div className="h-[75vh] flex flex-col justify-center items-center">
-          <div className="flex 2xl:w-[75vw] px-16 items-center gap-12">
-            <div className="flex flex-col gap-10 text-left">
-              <p className="text-xl md:text-3xl text-gray-700 font-bold leading-relaxed"> 
-                We are a community of machine learning enthusiasts
-                who build collaborative projects tackling
-                diverse, interesting problems.
-              </p>
-              <Information />
-              <JoinUs />
-            </div>
-            <img src={homescreen} className="h-56 md:h-96" />
+      <div className="md:h-[75vh] sm:h-[90vh] flex flex-col justify-center items-center">
+        <div className="flex sm:flex-col 2xl:w-[75vw] items-center md:gap-10">
+          <div className="flex flex-col md:gap-10 gap-6 text-left">
+            <p className="md:text-3xl sm:text-2xl text-gray-700 font-bold leading-loose">
+              We are a community of machine learning enthusiasts
+              who build collaborative projects tackling
+              diverse, interesting problems.
+            </p>
+            <Information />
+            <LinkToButton url="https://discord.gg/dQdSnpt3u8" text="Join Us on Discord" />
           </div>
-
-          <ScrollDown />
+          <img src={homescreen} className="h-56 md:h-96 lg:h-2/5 sm:mt-12 rounded-xl" />
         </div>
+
+        <ScrollDown />
+      </div>
     </div>
   )
 }

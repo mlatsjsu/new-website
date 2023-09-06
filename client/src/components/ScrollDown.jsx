@@ -9,7 +9,7 @@ const ScrollDown = () => {
       to="introduction"
       smooth={true}
       duration={1000}
-      className='cursor-pointer hover:scale-110 active:scale-90 absolute bottom-8'>
+      className='cursor-pointer hover:scale-110 active:scale-90 absolute bottom-8 sm:bottom-4'>
       <motion.img src={Scroll}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

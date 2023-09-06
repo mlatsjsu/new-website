@@ -1,15 +1,17 @@
 import React from 'react'
 import "./LandingPage.css"
-import GetInvolved from '../components/GetInvolved';
 import HomeScreen from '../components/HomeScreen';
-import Navbar from '../components/Navbar';
 import Mission from '../components/Mission';
+import Activities from '../components/Activities';
+import Officer from '../components/Officer';
 
 const LandingPage = () => {
 	return (
-		<div className="">
+		<div className="px-16 sm:px-8">
 			<HomeScreen />
 			<Mission />
+			<Activities />
+			<Officer />
 		</div>
 	)
 }
