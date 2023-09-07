@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
           <p className="text-sm ml-2 font-semitbold">Room BBC 326, San Jose State University<br /> 1 Washington Sq, San Jose, CA 95192</p>
           <div className="mt-6 ml-2">
-            <LinkToButton url="mailto:sjsumlclub@gmail.com" text="Contact Us" />
+            <LinkToButton url="mailto:sjsumlclub@gmail.com" text="Contact Us" color="from-[#ec6c04] via-[#f69904] to-[#fcc304]" />
           </div>
         </div>
         <div className="text-left">
@@ -44,7 +44,7 @@ const Footer = () => {
           ))}
         </div>
 
-        <LinkToButton url="https://discord.gg/dQdSnpt3u8" text="Join Us on Discord" />
+        <LinkToButton url="https://discord.gg/dQdSnpt3u8" text="Join Us on Discord" color="from-[#bcbcfc] via-[#4464e4] to-[#7c54ac]"/>
       </div>
 
 

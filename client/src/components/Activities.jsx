@@ -16,7 +16,7 @@ const Activities = () => {
             </p>
             {/* <p>Keep up with our events at </p> */}
           </div>
-          <img src={activity} alt="activity" className="rounded-lg md:h-72" />
+          <img src={activity} alt="activity" className="rounded-lg md:h-72 2xl:h-80" />
         </div>
 
       </div>

@@ -29,14 +29,14 @@ const Mission = () => {
     },
   ]
   return (
-    <div className="flex flex-col gap-12 sm:gap-4 justify-center items-center">
+    <section id="mission" className="flex flex-col gap-12 sm:gap-4 justify-center items-center">
       <h1 className="font-extrabold text-3xl">Our Mission</h1>
       <div className=" flex flex-col items-center justify-center gap-12">
         {missions.map((mission) => (
           <MissionCard mission={mission.mission} icon={mission.icon} position={mission.position} />
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 

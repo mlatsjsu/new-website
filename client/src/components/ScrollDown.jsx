@@ -6,7 +6,7 @@ import Scroll from '../../images/scroll-down.png'
 const ScrollDown = () => {
   return (
     <Link
-      to="introduction"
+      to="mission"
       smooth={true}
       duration={1000}
       className='cursor-pointer hover:scale-110 active:scale-90 absolute bottom-8 sm:bottom-4'>
