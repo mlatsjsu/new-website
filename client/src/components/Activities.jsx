@@ -4,7 +4,7 @@ import activity from "../../images/activity.jpg"
 const Activities = () => {
   return (
     <div className=" flex flex-col justify-center items-center">
-      <div className="md:w-[75vw] 2xl:w-[60vw] bg-gradient-to-r from-[#f48604] via-[#fcac04] to-[#ffbc08] flex flex-col gap-8 sm:gap-4 justify-center px-16 py-10 sm:px-8 sm:py-8 rounded-2xl">
+      <div className="md:w-[75vw] 2xl:w-[60vw] bg-gradient-to-r from-[#bcbcfc] via-[#4464e4] to-[#7c54ac] flex flex-col gap-8 sm:gap-4 justify-center px-16 py-10 sm:px-8 sm:py-8 rounded-2xl">
         <h1 className="font-extrabold text-3xl">Activities</h1>
         <div className="flex gap-10 sm:gap-6 justify-center items-center sm:flex-col">
           <div className="text-left leading-relaxed space-y-6 font-medium text-lg">
