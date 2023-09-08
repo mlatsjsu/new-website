@@ -10,7 +10,7 @@ import Milind from '../../images/officers/Milind.jpg'
 import Haydon from '../../images/officers/Haydon.jpg'
 import Anjali from '../../images/officers/Anjali.jpg'
 import Vlad from '../../images/officers/vlad.jpg'
-import Gautham from '../../images/officers/Gautham.jpg'
+import Gautham from '../../images/officers/gautham.jpg'
 
 const Officer = () => {
   const officers = [
