@@ -28,7 +28,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-[#263238] text-white py-8 space-y-6 flex flex-col gap-4">
       <div className="flex sm:flex-col items-center justify-center gap-24 sm:gap-12">
-        <div className="text-left flex flex-col gap-2">
+        <div className="text-left flex flex-col gap-2 sm:items-center">
           <div >
             <img className="h-14" src={logo} alt="logo" />
           </div>
@@ -37,7 +37,7 @@ const Footer = () => {
             <LinkToButton url="mailto:sjsumlclub@gmail.com" text="Contact Us" color="from-[#ec6c04] via-[#f69904] to-[#fcc304]" />
           </div>
         </div>
-        <div className="text-left">
+        <div className="text-left flex flex-col sm:items-center">
           <p className="text-2xl font-black mb-4">Connect With Us</p>
           {social.map((social) => (
             <SocialIcon link={social.link} url={social.url} icon={social.icon} />

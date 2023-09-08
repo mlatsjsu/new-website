@@ -4,7 +4,7 @@ const MissionCard = ({mission, icon, position}) => {
 
   if (position === "left") {
     return (
-      <div className="flex items-center justify-center bg-gradient-to-r from-[#ffbc08] via-[#fcac04] to-[#f48604] px-16 py-8 sm:px-8 sm:gap-2 sm:rounded-2xl gap-6 rounded-full md:w-[780px]">
+      <div className="flex items-center justify-center bg-gradient-to-r from-[#ffbc08] via-[#fcac04] to-[#f48604] px-16 py-8 sm:px-8 sm:gap-2 sm:rounded-2xl gap-6 rounded-full md:w-[780px] shadow-xl">
         <p className="text-gray-700 font-medium text-lg mr-auto text-left">
           {mission}
         </p>

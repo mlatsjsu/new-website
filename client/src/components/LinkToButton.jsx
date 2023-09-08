@@ -5,7 +5,7 @@ const LinkToButton = ({url, text, color}) => {
     <div>
       <a href={url}
         target="_blank" 
-        className={`bg-gradient-to-r ${color} hover:from-[#ec6c04] hover:to-[#ec6c04] text-white font-bold py-4 px-6 rounded-full`}>
+        className={`bg-gradient-to-r ${color} hover:shadow-2xl transition duration-200 ease-out text-white font-bold py-4 px-6 rounded-full shadow-lg`}>
         {text}
       </a>
     </div>
