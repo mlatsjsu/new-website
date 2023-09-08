@@ -45,13 +45,13 @@ const Officer = () => {
     },
     {
       name: "Rahul Kandekar",
-      role: "Academic Commitee",
+      role: "Academic Committee",
       linkedin: "https://www.linkedin.com/in/rahul-kandekar/",
       photo: RahulK
     },
     {
       name: "Haydon Behl",
-      role: "Academic Commitee",
+      role: "Academic Committee",
       photo: Haydon
     },
     {
@@ -66,7 +66,7 @@ const Officer = () => {
     },
     {
       name: "Daniel Ung",
-      role: "Project Member",
+      role: "Public Relations",
       photo: Daniel
     },
     
