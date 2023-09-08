@@ -4,7 +4,6 @@ import Trique from '../../images/officers/trique.jpg'
 import Auni from '../../images/officers/Auni.jpg'
 import RahulK from '../../images/officers/RahulKandekar.jpg'
 import RahulR from '../../images/officers/RahulRaju.jpg'
-import Troia from '../../images/officers/troia.jpeg'
 import Daniel from '../../images/officers/daniel.jpg'
 import Milind from '../../images/officers/Milind.jpg'
 import Haydon from '../../images/officers/Haydon.jpg'
@@ -14,11 +13,6 @@ import Gautham from '../../images/officers/gautham.jpg'
 
 const Officer = () => {
   const officers = [
-    {
-      name: "Dr. Fabio Di Troia",
-      role: "Advisor",
-      photo: Troia
-    },
     {
       name: "Auni Bagchi",
       role: "President",
