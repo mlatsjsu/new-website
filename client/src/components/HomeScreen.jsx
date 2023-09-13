@@ -31,8 +31,8 @@ const HomeScreen = () => {
   };
 
   return (
-      <div className="min-h-screen flex flex-col justify-center items-center">
-        <div className="flex max-w-[1280px] sm:flex-col 2xl:w-[75vw] items-center md:gap-10">
+      <div className="h-screen flex justify-center items-center">
+        <div className="flex sm:flex-col items-center md:gap-10">
           <div className="flex flex-col md:gap-10 gap-6 text-left justify-center sm:items-center">
             <p className="md:text-3xl sm:text-2xl text-gray-700 font-bold leading-loose">
               We are a community of machine learning enthusiasts
@@ -42,7 +42,7 @@ const HomeScreen = () => {
             <Information />
             <LinkToButton url="https://discord.gg/dQdSnpt3u8" text="Join Us on Discord" color="from-[#bcbcfc] via-[#4464e4] to-[#7c54ac]" />
           </div>
-          <img src={homescreen} className="max-h-[480px] sm:mt-12 rounded-xl shadow-lg" />
+          <img src={homescreen} className="md:max-w-[400px] xl:max-w-[480px] sm:mt-12 rounded-xl shadow-lg" />
         </div>
 
         {isVisible && <ScrollDown />}

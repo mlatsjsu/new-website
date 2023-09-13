@@ -10,9 +10,23 @@ import Haydon from '../../images/officers/Haydon.jpg'
 import Anjali from '../../images/officers/Anjali.jpg'
 import Vlad from '../../images/officers/vlad.jpg'
 import Gautham from '../../images/officers/gautham.jpg'
+import StasTiomkin from '../../images/officers/StasTiomkin.jpg'
+import CarlosRojas from '../../images/officers/carlosrojas.jpg'
 
 const Officer = () => {
   const officers = [
+    {
+      name: "Carlos Rojas",
+      role: "Staff Advisor",
+      // linkedin: "https://www.linkedin.com/in/aunibagchi/",
+      photo: CarlosRojas
+    },
+    {
+      name: "Stats Tiomkin",
+      role: "Staff Advisor",
+      // linkedin: "https://www.linkedin.com/in/aunibagchi/",
+      photo: StasTiomkin
+    },
     {
       name: "Auni Bagchi",
       role: "President",
@@ -28,19 +42,21 @@ const Officer = () => {
     {
       name: "Anjali Kadiyala",
       role: "Event Coordinator",
+      linkedin: "https://www.linkedin.com/in/anjalikadiyala19/",
       photo: Anjali
     },
     {
       name: "Gautham Narayanan",
       role: "Outreach Coordinator",
+      linkedin: "https://www.linkedin.com/in/gauthamnarayanan/",
       photo: Gautham
     },
     {
       name: "Trique Nguyen",
       role: "Webmaster",
       linkedin: "https://www.linkedin.com/in/trique-nguyen/",
-      github: "https://github.com/triquenguyen",
-      website: "https://triquenguyen.tech/",
+      // github: "https://github.com/triquenguyen",
+      // website: "https://triquenguyen.tech/",
       photo: Trique
     },
     {
@@ -52,11 +68,13 @@ const Officer = () => {
     {
       name: "Haydon Behl",
       role: "Academic Committee",
+      linkedin: "https://www.linkedin.com/in/haydon-behl-b659011a6",
       photo: Haydon
     },
     {
       name: "Milind Pathak",
       role: "Event Coordinator",
+      linkedin: "https://www.linkedin.com/in/milindpathak9/",
       photo: Milind
     },
     {
@@ -67,6 +85,7 @@ const Officer = () => {
     {
       name: "Daniel Ung",
       role: "Public Relations",
+      linkedin: "https://www.linkedin.com/in/danielung22/",
       photo: Daniel
     },
     

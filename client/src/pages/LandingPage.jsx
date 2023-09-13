@@ -7,7 +7,7 @@ import Officer from '../components/Officer';
 
 const LandingPage = () => {
 	return (
-		<div className="px-16 sm:px-8 flex flex-col items-center justify-center gap-24">
+		<div className="px-16 sm:px-4 flex flex-col items-center justify-center gap-24 max-w-[1280px]">
 			<HomeScreen />
 			<Mission />
 			<Activities />

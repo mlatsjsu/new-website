@@ -27,7 +27,7 @@ const Footer = () => {
   ]
   return (
     <div className="w-full bg-[#263238] text-white py-8 space-y-6 flex flex-col gap-4">
-      <div className="flex sm:flex-col items-center justify-center gap-48 sm:gap-12">
+      <div className="flex sm:flex-col items-center justify-center gap-24 sm:gap-12">
         <div className="text-left flex flex-col gap-2 sm:items-center">
           <div >
             <img className="h-14" src={logo} alt="logo" />

@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
 	return (
-		<div className="bg-neutral-100">
+		<div className="bg-neutral-100 flex flex-col justify-center items-center">
 			<BrowserRouter>
 			<Navbar />
 			<Routes>
