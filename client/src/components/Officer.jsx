@@ -22,7 +22,7 @@ const Officer = () => {
       photo: CarlosRojas
     },
     {
-      name: "Stats Tiomkin",
+      name: "Stas' Tiomkin",
       role: "Staff Advisor",
       // linkedin: "https://www.linkedin.com/in/aunibagchi/",
       photo: StasTiomkin
@@ -80,6 +80,7 @@ const Officer = () => {
     {
       name: "Rahul Raju",
       role: "Public Relations",
+      linkedin: "https://www.linkedin.com/in/rahul-raju-354792265/",
       photo: RahulR
     },
     {
