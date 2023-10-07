@@ -24,3 +24,5 @@ const OfficerCard = ({ photo, name, role, linkedin, github, website }) => {
 }
 
 export default OfficerCard
+
+

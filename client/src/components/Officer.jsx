@@ -93,8 +93,8 @@ const Officer = () => {
     
   ]
   return (
-    <div className="flex flex-col items-center justify-center gap-12 sm:gap-8 max-w-[1280px] mb-24">
-      <h1 className='font-extrabold text-5xl sm:text-3xl'>Meet the Board</h1>
+    <div className="flex flex-col items-center justify-center gap-16 sm:gap-8 max-w-[1280px] mb-24">
+      <h1 className='font-bold text-5xl sm:text-3xl'>Meet the Board</h1>
       <div className="xl:grid xl:grid-cols-3 gap-10 sm:flex sm:flex-wrap md:flex md:flex-wrap md:items-center md:justify-center">
         {officers.map((officer) => (
           <OfficerCard photo={officer.photo} name={officer.name} role={officer.role} linkedin={officer.linkedin} github={officer.github} website={officer.website} />

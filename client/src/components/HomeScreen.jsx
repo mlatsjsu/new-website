@@ -31,10 +31,10 @@ const HomeScreen = () => {
   };
 
   return (
-      <div className="h-screen flex justify-center items-center">
+      <div className="h-[80vh] sm:h-[90vh] flex justify-center items-center">
         <div className="flex sm:flex-col items-center md:gap-10">
           <div className="flex flex-col md:gap-10 gap-6 text-left justify-center sm:items-center">
-            <p className="md:text-3xl sm:text-2xl text-gray-700 font-bold leading-loose">
+            <p className="md:text-3xl sm:text-2xl text-gray-700 font-bold leading-loose sm:text-center">
               We are a community of machine learning enthusiasts
               who build collaborative projects tackling
               diverse, interesting problems.
