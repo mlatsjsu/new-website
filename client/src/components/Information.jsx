@@ -25,7 +25,7 @@ const Information = () => {
         target="_blank"
         className="flex gap-2 items-center">
         <img src={TimeTable} alt="LinkedIn" className="md:w-8 md:h-8 w-5 h-5" />
-        <p className="text-gray-700 font-semibold md:text-lg">Fri, Sept 15<br/>11-12:30PM</p>
+        <p className="text-gray-700 font-semibold md:text-lg">Friday<br/>11-12:30PM</p>
       </a>
 
     </div>
