@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 import logo from "../../images/logo.svg";
-import { Link } from 'react-scroll'
-import { motion } from 'framer-motion'
+import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav className="bg-neutral-100 md:px-16 md:py-3 flex items-center justify-center sticky w-screen top-0 left-0 right-0 drop-shadow-md">
+    <nav className="bg-neutral-100 md:px-16 md:py-3 flex items-center justify-center sticky w-screen top-0 left-0 right-0 drop-shadow-md z-50">
       <img className="h-14" src={logo} alt="logo" />
       {/* <div className="flex gap-10">
         <Link
@@ -31,7 +31,7 @@ const Navbar = () => {
         </Link>
       </div> */}
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
