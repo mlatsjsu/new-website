@@ -2,10 +2,11 @@ import React from 'react'
 import LinkedIn from '../../images/linkedin2.svg'
 import GitHub from '../../images/github.svg'
 import Portfolio from '../../images/portfolio.png'
+import { joinPaths } from '@remix-run/router'
 
 const OfficerCard = ({ photo, name, role, linkedin, github, website }) => {
   return (
-    <div className="flex gap-6">
+    <div className="flex gap-6 hover:scale-110 duration-300">
 
       <img src={photo} alt={name} className="rounded-full object-cover w-40 h-40 shadow-lg" />
 
