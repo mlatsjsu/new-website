@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from "../../images/logo.svg";
 import Typed from 'react-typed'
-import Officer from '../components/Officer';
 import OfficerCard from '../components/OfficerCard';
 import Trique from '../../images/officers/trique.jpg'
 import Auni from '../../images/officers/Auni.jpg'
@@ -15,17 +14,10 @@ import Vlad from '../../images/officers/vlad.jpg'
 import Gautham from '../../images/officers/gautham.jpg'
 import StasTiomkin from '../../images/officers/StasTiomkin.jpg'
 import CarlosRojas from '../../images/officers/carlosrojas.jpg'
-import Portfolio from '../../images/portfolio.png'
-import linkedin from '../../images/linkedin.png'
-import instagram from '../../images/Instagram_logo_2016.svg.png'
-import youtube from '../../images/youtube.png'
-import LinkedIn from "./../../images/linkedin.png"
 import Location from "../../images/location.png";
 import TimeTable from "../../images/timetable.png";
 import LinkToButton from '../components/LinkToButton';
 import MissionB from '../components/MissionB';
-import Activities from '../components/Activities';
-import ActivitiesB from '../components/ActivitiesB';
 import activity from '../../images/activity.jpg'
 
 const About = () => {
